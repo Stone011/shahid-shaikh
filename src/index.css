@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', 'Italiana', 'Cormorant Garamond', serif;
+    --font-display: 'Syne', 'Space Grotesk', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #09090b;
+    color: #f4f4f5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, .font-serif-luxury {
+    font-family: 'Cinzel', 'Italiana', serif;
+  }
+
+  .font-brand-cinematic {
+    font-family: 'Cinzel', serif;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+  }
+
+  .font-display {
+    font-family: 'Syne', sans-serif;
+  }
+
+  .font-modern {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Cinematic Film Grain Overlay Effect */
+.film-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.cinematic-glow {
+  box-shadow: 0 0 50px -10px rgba(245, 158, 11, 0.12);
+}
+
+.cinematic-card {
+  background: linear-gradient(180deg, rgba(24, 24, 27, 0.7) 0%, rgba(9, 9, 11, 0.9) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(12px);
+}
+
+.cinematic-card:hover {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+/* Anamorphic Flare accent line */
+.lens-flare-line {
+  background: linear-gradient(90deg, transparent, rgba(245, 158, 11, 0.8), rgba(255, 255, 255, 0.9), rgba(245, 158, 11, 0.8), transparent);
+}
+
+/* Custom Animation Utility */
+@keyframes slowZoom {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.animate-slow-zoom {
+  animation: slowZoom 24s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

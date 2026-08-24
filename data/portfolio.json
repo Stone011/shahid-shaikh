@@ -1,0 +1,1197 @@
+{
+  "general": {
+    "siteTitle": "Shahid Shaikh | Video Editor • Director • Storyteller",
+    "metaDescription": "Shahid Shaikh is a professional video editor, video director, story writer, songwriter, cinematic filmmaker and content creator.",
+    "brandName": "SHAHID SHAIKH",
+    "primaryAccent": "#f59e0b",
+    "availableForHire": true,
+    "availabilityText": "Available for Directorial Commissions, Video Editing & Creative Projects Worldwide"
+  },
+  "hero": {
+    "name": "SHAHID SHAIKH",
+    "tagline": "Video Editor • Director • Visual Storyteller",
+    "subRoles": [
+      "Video Editor",
+      "Visual Storyteller",
+      "Video Director",
+      "Story Writer",
+      "Song Writer",
+      "Cinematic Filmmaker"
+    ],
+    "bioQuote": "Crafting compelling visual stories through rhythm-driven video editing, directorial vision, narrative writing, original songwriting, and high-retention content.",
+    "backgroundImage": "https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=2000&auto=format&fit=crop",
+    "backgroundVideoUrl": "",
+    "ctaPrimaryText": "VIEW MY WORK",
+    "ctaPrimaryLink": "#video-editing",
+    "ctaSecondaryText": "CONTACT ME",
+    "ctaSecondaryLink": "#contact",
+    "experienceBadge": "5+ Years Experience",
+    "statusBadge": "Available for Video Editing, Direction & Storytelling Projects"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "headline": "Creative Video Professional & Visual Storyteller",
+    "paragraphs": [
+      "I’m Shahid Shaikh — a multidisciplinary creative professional, video editor, video director, story writer, songwriter, and cinematic filmmaker with over 5 years of hands-on industry experience.",
+      "My creative work spans commercial video editing, social media content, high-retention reels, podcasts, short-form videos, cinematic visual projects, storytelling, video direction, photography, and wedding films.",
+      "Whether sculpting the pacing and rhythm of a narrative cut, writing a story script, penning song lyrics, directing visual concepts on set, or delivering engaging short-form edits, I focus on creating work that captivates, connects, and resonates with audiences."
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop",
+    "secondaryImage": "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=1000&auto=format&fit=crop",
+    "stats": [
+      {
+        "id": "1",
+        "number": "5+",
+        "label": "Years Experience",
+        "subtext": "Commercial & Narrative Post-Production"
+      },
+      {
+        "id": "2",
+        "number": "1K+",
+        "label": "Video Editing",
+        "subtext": "Commercial, Narrative & Film Edits"
+      },
+      {
+        "id": "3",
+        "number": "5000+",
+        "label": "Social Media & Reels",
+        "subtext": "High-Retention Short-Form Formats"
+      },
+      {
+        "id": "4",
+        "number": "80+",
+        "label": "Story Writing",
+        "subtext": "Concept Scripts, Lyrics & Screenplays"
+      },
+      {
+        "id": "5",
+        "number": "25+",
+        "label": "Video Direction",
+        "subtext": "Music Videos & Creative Concepts"
+      }
+    ],
+    "philosophyQuote": "Every frame should have intention, every cut should have rhythm, and every story should leave an impact."
+  },
+  "sections": {
+    "hero": true,
+    "about": true,
+    "videoEditing": true,
+    "weddingFilms": true,
+    "cinematic": true,
+    "trailers": true,
+    "teasers": true,
+    "reels": true,
+    "photography": true,
+    "shootServices": true,
+    "videoDirection": true,
+    "mySongs": true,
+    "experience": true,
+    "skills": true,
+    "contact": true
+  },
+  "videoCatalogTree": [
+    {
+      "id": "cat-wedding",
+      "name": "Wedding Films",
+      "description": "Luxury wedding highlights, royal ceremonies, teasers, and vertical reels",
+      "children": [
+        {
+          "id": "cat-pre-wedding",
+          "name": "Pre-Wedding",
+          "description": "Romantic destination shoots, cinematic stories, and teaser reels",
+          "parentId": "cat-wedding",
+          "children": [
+            {
+              "id": "cat-pre-wed-cinema",
+              "name": "Cinematic",
+              "parentId": "cat-pre-wedding"
+            },
+            {
+              "id": "cat-pre-wed-trailer",
+              "name": "Teaser & Trailer",
+              "parentId": "cat-pre-wedding"
+            },
+            {
+              "id": "cat-pre-wed-reels",
+              "name": "Reels (9:16)",
+              "parentId": "cat-pre-wedding"
+            }
+          ]
+        },
+        {
+          "id": "cat-wedding-day",
+          "name": "Wedding Day",
+          "description": "Full ceremony films, royal highlights, and emotion-driven cinema",
+          "parentId": "cat-wedding",
+          "children": [
+            {
+              "id": "cat-wed-cinema",
+              "name": "Cinematic Films",
+              "parentId": "cat-wedding-day"
+            },
+            {
+              "id": "cat-wed-trailer",
+              "name": "Teaser & Trailer",
+              "parentId": "cat-wedding-day"
+            },
+            {
+              "id": "cat-wed-reels",
+              "name": "Reels (9:16)",
+              "parentId": "cat-wedding-day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat-cinematic",
+      "name": "Cinematic & Narrative",
+      "description": "Story-driven short films, atmospheric visual poems, and master color grading",
+      "children": [
+        {
+          "id": "cat-short-films",
+          "name": "Short Films & Stories",
+          "parentId": "cat-cinematic"
+        },
+        {
+          "id": "cat-documentary",
+          "name": "Documentary & Concept",
+          "parentId": "cat-cinematic"
+        }
+      ]
+    },
+    {
+      "id": "cat-direction",
+      "name": "Video Direction & Commercials",
+      "description": "Directorial vision, brand commercials, concept pitches, and music videos",
+      "children": [
+        {
+          "id": "cat-commercials",
+          "name": "Brand Commercials",
+          "parentId": "cat-direction"
+        },
+        {
+          "id": "cat-music-videos",
+          "name": "Music Videos & Visuals",
+          "parentId": "cat-direction"
+        }
+      ]
+    },
+    {
+      "id": "cat-vertical-commercial",
+      "name": "VERTICAL COMMERCIAL",
+      "description": "High-impact 9:16 vertical commercial ads, brand campaigns, and social media reels",
+      "children": [
+        {
+          "id": "cat-vert-brands",
+          "name": "Brand Commercials (9:16)",
+          "parentId": "cat-vertical-commercial"
+        },
+        {
+          "id": "cat-vert-promo",
+          "name": "Promotional Reels",
+          "parentId": "cat-vertical-commercial"
+        },
+        {
+          "id": "cat-vert-social-ads",
+          "name": "Social Media Ads",
+          "parentId": "cat-vertical-commercial"
+        }
+      ]
+    },
+    {
+      "id": "cat-content",
+      "name": "Content Creation & Social Media",
+      "description": "High-retention vertical reels, podcasts, interviews, and creator content",
+      "children": [
+        {
+          "id": "cat-reels-916",
+          "name": "Vertical Reels (9:16)",
+          "parentId": "cat-content"
+        },
+        {
+          "id": "cat-podcasts",
+          "name": "Podcasts & Interviews",
+          "parentId": "cat-content"
+        },
+        {
+          "id": "cat-teasers-promo",
+          "name": "Show Teasers & Promos",
+          "parentId": "cat-content"
+        }
+      ]
+    },
+    {
+      "id": "cat-songs-music",
+      "name": "Music & Songwriting",
+      "description": "Original tracks, lyric composition, audio visualizers, and music videos",
+      "children": [
+        {
+          "id": "cat-original-songs",
+          "name": "Original Compositions",
+          "parentId": "cat-songs-music"
+        },
+        {
+          "id": "cat-sound-design",
+          "name": "Sound Design & Beats",
+          "parentId": "cat-songs-music"
+        },
+        {
+          "id": "cat-rap-hiphop",
+          "name": "Rap & Hip-Hop",
+          "parentId": "cat-songs-music"
+        }
+      ]
+    }
+  ],
+  "photoCatalogTree": [
+    {
+      "id": "photo-weddings",
+      "name": "Weddings",
+      "children": [
+        {
+          "id": "photo-wed-rituals",
+          "name": "Ceremonies & Rituals",
+          "parentId": "photo-weddings"
+        },
+        {
+          "id": "photo-wed-portraits",
+          "name": "Couple Portraits",
+          "parentId": "photo-weddings"
+        },
+        {
+          "id": "photo-wed-candids",
+          "name": "Candids & Emotion",
+          "parentId": "photo-weddings"
+        }
+      ]
+    },
+    {
+      "id": "photo-portraits",
+      "name": "Portraits",
+      "children": [
+        {
+          "id": "photo-port-editorial",
+          "name": "Editorial & Studio",
+          "parentId": "photo-portraits"
+        },
+        {
+          "id": "photo-port-cinematic",
+          "name": "Cinematic Mood",
+          "parentId": "photo-portraits"
+        }
+      ]
+    },
+    {
+      "id": "photo-events",
+      "name": "Events & Concerts"
+    },
+    {
+      "id": "photo-lifestyle",
+      "name": "Lifestyle & Street"
+    },
+    {
+      "id": "photo-creative",
+      "name": "Creative & Conceptual"
+    }
+  ],
+  "songCatalogTree": [
+    {
+      "id": "song-cat-original",
+      "name": "Original Tracks",
+      "description": "Original compositions written, produced, and performed by Stone GD",
+      "children": [
+        {
+          "id": "song-cat-hiphop",
+          "name": "Rap & Trap Beats",
+          "parentId": "song-cat-original"
+        },
+        {
+          "id": "song-cat-lofi",
+          "name": "Lofi & Ambient Vibes",
+          "parentId": "song-cat-original"
+        }
+      ]
+    },
+    {
+      "id": "song-cat-scores",
+      "name": "Film Scores & Sound Design",
+      "description": "Cinematic trailer rises, atmospheric background scores, and wedding piano themes",
+      "children": [
+        {
+          "id": "song-cat-cinematic-score",
+          "name": "Cinematic Orchestral",
+          "parentId": "song-cat-scores"
+        },
+        {
+          "id": "song-cat-trailer-drops",
+          "name": "Trailer SFX & Drops",
+          "parentId": "song-cat-scores"
+        }
+      ]
+    },
+    {
+      "id": "song-cat-streaming",
+      "name": "Spotify & Streaming Releases",
+      "description": "Official singles and EPs streaming worldwide"
+    }
+  ],
+  "videoCatalogues": [
+    "Wedding Films",
+    "Cinematic",
+    "Trailers",
+    "Teasers",
+    "Reels",
+    "VERTICAL COMMERCIAL",
+    "Podcasts",
+    "Music Videos"
+  ],
+  "photoCatalogues": [
+    "WEDDINGS",
+    "PORTRAITS",
+    "EVENTS",
+    "LIFESTYLE",
+    "STREET",
+    "CREATIVE"
+  ],
+  "songCatalogues": [
+    "Original Tracks",
+    "Film Scores & Sound Design",
+    "Spotify & Streaming Releases"
+  ],
+  "videoProjects": [
+    {
+      "id": "vid-1787473241359",
+      "title": "New Video Project",
+      "category": "Trailers",
+      "year": "2026",
+      "description": "Enter description of the project, cinematic color grade, and narrative style...",
+      "thumbnail": "https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "client": "Private Client",
+      "duration": "3:30",
+      "aspectRatio": "16:9",
+      "tags": [
+        "Color Grading",
+        "Premiere Pro"
+      ],
+      "buttonText": "WATCH VIDEO"
+    },
+    {
+      "id": "vid-urban-company",
+      "title": "Urban Company — High-Conversion Vertical Commercial",
+      "category": "VERTICAL COMMERCIAL",
+      "catalogId": "cat-vertical-commercial",
+      "catalogIds": [
+        "cat-vertical-commercial",
+        "cat-vert-brands",
+        "cat-reels-916",
+        "cat-commercials"
+      ],
+      "year": "2024",
+      "description": "Dynamic 9:16 vertical commercial campaign crafted for Urban Company with energetic kinetic typography, clean sound design, and speed ramping.",
+      "thumbnail": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+      "client": "Urban Company",
+      "duration": "0:30",
+      "tags": [
+        "Urban Company",
+        "Vertical Commercial",
+        "9:16",
+        "After Effects",
+        "Premiere Pro"
+      ],
+      "buttonText": "WATCH COMMERCIAL",
+      "featured": true,
+      "aspectRatio": "9:16",
+      "viewsCount": "1.5M+",
+      "likesCount": "89K",
+      "audioTrack": "Stone GD — Hyper Beat 135BPM"
+    },
+    {
+      "id": "vid-w3",
+      "title": "Soulmates at Dusk — Beachside Luxury Vows",
+      "category": "Wedding Films",
+      "year": "2024",
+      "description": "Golden hour sunset ceremony edited with gentle orchestral swelling, pristine dialogue clarity, and cinematic anamorphic framing.",
+      "thumbnail": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "client": "Eternity Wedding Films",
+      "duration": "5:10",
+      "tags": [
+        "Beachside Wedding",
+        "Sunset Tone",
+        "Sound Design"
+      ],
+      "buttonText": "WATCH WEDDING FILM",
+      "featured": false,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-c1",
+      "title": "Chronicles of Bombay — Anamorphic Urban Cinema",
+      "category": "Cinematic",
+      "year": "2025",
+      "description": "A dark, atmospheric cinematic short capturing the nocturnal heartbeat of the metropolis with deep shadows and neon luminescence.",
+      "thumbnail": "https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "client": "Independent Cinema",
+      "duration": "3:40",
+      "tags": [
+        "Anamorphic",
+        "DaVinci Resolve",
+        "Atmospheric",
+        "Film Grain"
+      ],
+      "buttonText": "WATCH CINEMATIC FILM",
+      "featured": true,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-c2",
+      "title": "Aura — High-End Luxury Automobile Showcase",
+      "category": "Cinematic",
+      "year": "2024",
+      "description": "Precision-cut commercial cinema featuring hyper-stylized reflections, metallic color grading, and custom engine acoustic sound design.",
+      "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "client": "Apex Automotive",
+      "duration": "2:15",
+      "tags": [
+        "Automotive",
+        "Color Science",
+        "Sound Mix",
+        "Commercial"
+      ],
+      "buttonText": "WATCH CINEMATIC FILM",
+      "featured": true,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-tr1",
+      "title": "Echoes of Honor — Narrative Action Film Official Trailer",
+      "category": "Trailers",
+      "year": "2025",
+      "description": "Epic theatrical trailer cut with pounding cinematic sub-bass hits, fast rising tension, kinetic typography, and pulse-pounding action rhythm.",
+      "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "client": "Vanguard Pictures",
+      "duration": "2:05",
+      "tags": [
+        "Trailer Cut",
+        "Bass Drops",
+        "Action Pace",
+        "Sound FX"
+      ],
+      "buttonText": "WATCH TRAILER",
+      "featured": true,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-tr2",
+      "title": "The Grand Gala 2025 — Worldwide Event Trailer",
+      "category": "Trailers",
+      "year": "2025",
+      "description": "High energy event trailer weaving together massive crowd shots, strobe transitions, VIP entrances, and dramatic orchestral drops.",
+      "thumbnail": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "client": "Global Entertainment",
+      "duration": "1:30",
+      "tags": [
+        "Event Trailer",
+        "Fast Pacing",
+        "Strobe FX"
+      ],
+      "buttonText": "WATCH TRAILER",
+      "featured": false,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-2",
+      "title": "Midnight Echoes — Dark Fashion Narrative Teaser",
+      "category": "Teasers",
+      "year": "2024",
+      "description": "High-tempo rhythmic fashion film teaser cut with glitch transitions, kinetic typography, and deep sub-bass sound sculpting.",
+      "thumbnail": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "client": "Avant-Garde Studio",
+      "duration": "0:45",
+      "tags": [
+        "Fashion Teaser",
+        "Sound Design",
+        "After Effects",
+        "Rhythm Cut"
+      ],
+      "buttonText": "WATCH TEASER",
+      "featured": true,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-ts2",
+      "title": "Save the Date — 30s Viral Wedding Teaser",
+      "category": "Teasers",
+      "year": "2025",
+      "description": "High-impact 30-second date announcement teaser designed for instant social media wow factor and emotional intrigue.",
+      "thumbnail": "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "client": "Eternity Wedding Films",
+      "duration": "0:30",
+      "tags": [
+        "Save the Date",
+        "Fast Cuts",
+        "Emotional Teaser"
+      ],
+      "buttonText": "WATCH TEASER",
+      "featured": false,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-4",
+      "title": "Velocity — 9:16 Speed Ramping & Whip-Pan Reel",
+      "category": "Reels",
+      "year": "2025",
+      "description": "Ultra-retention 9:16 vertical video reel featuring seamless whip-pans, speed ramping, beat matching, and sound design.",
+      "thumbnail": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+      "client": "Viral Brands Network",
+      "duration": "0:32",
+      "tags": [
+        "9:16 Vertical",
+        "Speed Ramping",
+        "Trending Audio"
+      ],
+      "buttonText": "PLAY REEL",
+      "featured": true,
+      "aspectRatio": "9:16",
+      "viewsCount": "850K+",
+      "likesCount": "64.2K",
+      "audioTrack": "Stone GD — Hyper Beat 135BPM"
+    },
+    {
+      "id": "vid-r2",
+      "title": "Color Grading Magic — Log to Final Cinema Reel",
+      "category": "Reels",
+      "year": "2025",
+      "description": "Before & After split screen reel demonstrating DaVinci Resolve node workflow, LUT application, and skin-tone perfection.",
+      "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "client": "Post Production Tips",
+      "duration": "0:24",
+      "tags": [
+        "Color Grading",
+        "DaVinci",
+        "Split Screen"
+      ],
+      "buttonText": "PLAY REEL",
+      "featured": true,
+      "aspectRatio": "9:16",
+      "viewsCount": "1.2M+",
+      "likesCount": "112K",
+      "audioTrack": "Cinematic Ambient Pulse"
+    },
+    {
+      "id": "vid-r3",
+      "title": "Luxury Bride Entrance — Slow Motion Reel",
+      "category": "Reels",
+      "year": "2025",
+      "description": "120fps slow-motion bride entrance with jewelry glints, soft rim light, and viral wedding audio pacing.",
+      "thumbnail": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "client": "Eternity Wedding Films",
+      "duration": "0:18",
+      "tags": [
+        "120fps Slow Mo",
+        "Wedding Reel",
+        "4K Vertical"
+      ],
+      "buttonText": "PLAY REEL",
+      "featured": false,
+      "aspectRatio": "9:16",
+      "viewsCount": "420K+",
+      "likesCount": "38K",
+      "audioTrack": "Original Wedding Instrumental"
+    },
+    {
+      "id": "vid-r4",
+      "title": "Bass Drop Transition Sync — Music Reel",
+      "category": "Reels",
+      "year": "2024",
+      "description": "Syncopated beat cut reel featuring zoom punches, flash frames, and audio visualizer accents.",
+      "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "client": "Stone Gang Records",
+      "duration": "0:28",
+      "tags": [
+        "Music Reel",
+        "Beat Sync",
+        "Flash Frames"
+      ],
+      "buttonText": "PLAY REEL",
+      "featured": false,
+      "aspectRatio": "9:16",
+      "viewsCount": "610K+",
+      "likesCount": "49K",
+      "audioTrack": "Stone GD — Dark Mirage"
+    },
+    {
+      "id": "vid-6",
+      "title": "Shadow & Soul — Underground Hip-Hop Music Video",
+      "category": "Music Videos",
+      "year": "2023",
+      "description": "Raw cinematic music video featuring anamorphic lens flares, stylized film grain, and syncopated beat-matched cuts.",
+      "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "client": "Stone Gang Records",
+      "duration": "3:48",
+      "tags": [
+        "Music Video",
+        "Color Grading",
+        "Directing"
+      ],
+      "buttonText": "WATCH VIDEO",
+      "featured": false,
+      "aspectRatio": "16:9"
+    },
+    {
+      "id": "vid-test-1787475627699",
+      "title": "Test Delete Verification Item",
+      "category": "Test",
+      "year": "2026",
+      "description": "Temporary item to test delete",
+      "thumbnail": "",
+      "videoUrl": ""
+    }
+  ],
+  "photography": [
+    {
+      "id": "p-1",
+      "title": "Crimson Glow & Twilight Moments",
+      "category": "PORTRAITS",
+      "description": "Atmospheric neon and low-light portraiture capturing deep emotional intimacy.",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop",
+      "aspect": "portrait",
+      "location": "Mumbai Studio",
+      "year": "2025"
+    },
+    {
+      "id": "p-2",
+      "title": "Royal Mandap & Sacred Vows",
+      "category": "WEDDINGS",
+      "description": "Traditional heritage Indian wedding ceremonies rendered with golden warmth and grand palace architecture.",
+      "imageUrl": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1200&auto=format&fit=crop",
+      "aspect": "landscape",
+      "location": "Jaipur Palace",
+      "year": "2024"
+    },
+    {
+      "id": "p-3",
+      "title": "Monochrome Street Rhythm",
+      "category": "STREET",
+      "description": "Candid urban geometric framing and high-contrast black-and-white shadows.",
+      "imageUrl": "https://images.unsplash.com/photo-1477959858617-67f30bc75b82?q=80&w=1200&auto=format&fit=crop",
+      "aspect": "square",
+      "location": "South Mumbai",
+      "year": "2024"
+    },
+    {
+      "id": "p-4",
+      "title": "Golden Hour Silhouette & Solitude",
+      "category": "LIFESTYLE",
+      "description": "Natural light study blending warm backlight flare with coastal horizon lines.",
+      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+      "aspect": "landscape",
+      "location": "Goa Coast",
+      "year": "2025"
+    },
+    {
+      "id": "p-5",
+      "title": "Neon Noir & Prismatic Reflections",
+      "category": "CREATIVE",
+      "description": "Experimental studio lighting using prisms, haze, and dual-tone gels.",
+      "imageUrl": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1200&auto=format&fit=crop",
+      "aspect": "portrait",
+      "location": "Creative Lab",
+      "year": "2025"
+    },
+    {
+      "id": "p-6",
+      "title": "Sangeet Night Ecstasy & Celebration",
+      "category": "EVENTS",
+      "description": "High-energy live event capture freezing motion under dynamic stage lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop",
+      "aspect": "landscape",
+      "location": "Grand Ballroom",
+      "year": "2024"
+    }
+  ],
+  "shootServices": [
+    {
+      "id": "shoot-1",
+      "title": "Wedding Shoots",
+      "category": "Cinematography & Stills",
+      "description": "Complete multi-camera coverage of traditional & luxury modern weddings with cinematic gimbal work, drone perspectives, and heartfelt storytelling.",
+      "imageUrl": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "Full Ceremony Film",
+        "4-5 Min Cinematic Teaser",
+        "Instagram Reels Batch",
+        "100+ Master Color Graded Photos"
+      ],
+      "turnaround": "2-3 Weeks",
+      "priceStarting": "Available on Inquiry"
+    },
+    {
+      "id": "shoot-2",
+      "title": "Pre-Wedding Shoots",
+      "category": "Concept & Direction",
+      "description": "Narrative pre-wedding films shot at scenic destination locations with scripted storytelling, wardrobe coordination, and intimate romantic framing.",
+      "imageUrl": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "2-3 Min Musical Love Story",
+        "Save-The-Date Vertical Cut",
+        "High-Res Photo Gallery"
+      ],
+      "turnaround": "7-10 Days"
+    },
+    {
+      "id": "shoot-3",
+      "title": "Portrait Shoots",
+      "category": "Studio & Editorial",
+      "description": "High-fashion editorial portraits, artist headshots, and mood-driven creative studio sessions with cinematic lighting setups.",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "15-20 Retouched Looks",
+        "High-Res Print Masters",
+        "Lighting Setup Consultation"
+      ],
+      "turnaround": "3-5 Days"
+    },
+    {
+      "id": "shoot-4",
+      "title": "Events & Galas",
+      "category": "Live Production",
+      "description": "Discreet and comprehensive coverage of corporate summits, cultural festivals, product launches, and private celebrity celebrations.",
+      "imageUrl": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "Same-Day Social Highlight",
+        "Full Event Recap Video",
+        "High-Res Live Photography"
+      ],
+      "turnaround": "48 Hours for Express Cut"
+    },
+    {
+      "id": "shoot-5",
+      "title": "Social Media Shoots",
+      "category": "Short-form & Reels",
+      "description": "High-output creative video content batching tailored for Instagram Reels, YouTube Shorts, and viral branding.",
+      "imageUrl": "https://images.unsplash.com/photo-1616469829941-c7200edec809?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "10-20 Formatted Vertical Reels",
+        "B-Roll Library",
+        "Hook & Trend Direction"
+      ],
+      "turnaround": "5 Days"
+    },
+    {
+      "id": "shoot-6",
+      "title": "Creative Shoots",
+      "category": "Artistic Direction",
+      "description": "Experimental visual art, album covers, conceptual aesthetic films, and passion projects pushing visual boundaries.",
+      "imageUrl": "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "Art Concept Piece",
+        "Stylized Color Palette",
+        "Director’s Cut"
+      ],
+      "turnaround": "Custom Schedule"
+    },
+    {
+      "id": "shoot-7",
+      "title": "Brand Content",
+      "category": "Commercial Production",
+      "description": "Polished commercial visuals, product aesthetics, and brand identity showcase videos designed to convert and inspire.",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
+      "deliverables": [
+        "30s Commercial Spot",
+        "Cutdowns for Ads (15s/6s)",
+        "Brand Visual Stills"
+      ],
+      "turnaround": "1-2 Weeks"
+    }
+  ],
+  "directionProjects": [
+    {
+      "id": "dir-1",
+      "title": "Whispers in the Haze",
+      "category": "Short Films",
+      "year": "2024",
+      "description": "A moody neo-noir psychological thriller exploring isolation and memory in a rain-drenched metropolis.",
+      "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+      "credits": {
+        "director": "Shahid Shaikh",
+        "dop": "Arjun Verma",
+        "editor": "Shahid Shaikh",
+        "colorist": "Shahid Shaikh",
+        "soundDesign": "Stone GD Audio Lab",
+        "client": "Independent Cinema Project"
+      },
+      "concept": "Utilizing low-key chiaroscuro lighting, anamorphic 2.39:1 aspect ratio, and slow-burn pacing to mirror internal turmoil.",
+      "duration": "14:20"
+    },
+    {
+      "id": "dir-2",
+      "title": "Midnight Mirage — Stone GD",
+      "category": "Music Videos",
+      "year": "2024",
+      "description": "High-energy trap-infused visual piece combining underground garage aesthetics, fire pyro, and synchronized fast-cut editing.",
+      "thumbnail": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+      "credits": {
+        "director": "Shahid Shaikh",
+        "dop": "Karan Shah",
+        "editor": "Shahid Shaikh",
+        "colorist": "Shahid Shaikh",
+        "soundDesign": "Shahid Shaikh",
+        "client": "Stone Gang Destroy"
+      },
+      "concept": "Blending handheld gritty raw textures with sleek high-fashion motion styling.",
+      "duration": "3:30"
+    },
+    {
+      "id": "dir-3",
+      "title": "A Love Through Time",
+      "category": "Wedding Films",
+      "year": "2025",
+      "description": "A non-linear romantic narrative framing childhood reminiscence alongside sacred wedding moments.",
+      "thumbnail": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=9bZkp7q19f0",
+      "credits": {
+        "director": "Shahid Shaikh",
+        "editor": "Shahid Shaikh",
+        "colorist": "Shahid Shaikh",
+        "client": "Private Couple Commission"
+      },
+      "concept": "Emphasizing voiceover acoustic intimacy over standard background music beds.",
+      "duration": "6:10"
+    },
+    {
+      "id": "dir-4",
+      "title": "Aura of Luxury — Concept Commercial",
+      "category": "Commercial Concepts",
+      "year": "2024",
+      "description": "Directorial concept for a luxury timepiece brand focusing on mechanical precision and macro fluid dynamics.",
+      "thumbnail": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1200&auto=format&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "credits": {
+        "director": "Shahid Shaikh",
+        "editor": "Shahid Shaikh",
+        "colorist": "Shahid Shaikh",
+        "client": "Spec Commercial Pitch"
+      },
+      "concept": "1000 FPS ultra slow motion water droplet impacts reflecting diamond watch dials.",
+      "duration": "0:45"
+    }
+  ],
+  "songs": {
+    "youtubeSongs": [
+      {
+        "id": "yt-1",
+        "title": "Stone Gang Anthem — Official Music Video",
+        "artist": "Shahid Shaikh (Stone GD)",
+        "thumbnail": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1000&auto=format&fit=crop",
+        "youtubeUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
+        "views": "125K Views",
+        "year": "2024"
+      },
+      {
+        "id": "yt-2",
+        "title": "Midnight Vibe — Lofi & Cinematic Hip-Hop",
+        "artist": "Stone GD ft. Visual Beats",
+        "thumbnail": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=1000&auto=format&fit=crop",
+        "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "views": "84K Views",
+        "year": "2024"
+      },
+      {
+        "id": "yt-3",
+        "title": "Mumbai Nights — Rap Track & Visualiser",
+        "artist": "Stone GD",
+        "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1000&auto=format&fit=crop",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4",
+        "views": "210K Views",
+        "year": "2025"
+      }
+    ],
+    "spotifySongs": [
+      {
+        "id": "sp-1",
+        "title": "Street Genesis",
+        "artist": "Stone GD",
+        "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
+        "spotifyUrl": "https://open.spotify.com/artist/stonegd",
+        "album": "Genesis Vol. 1"
+      },
+      {
+        "id": "sp-2",
+        "title": "Dark Cinematic Resonance",
+        "artist": "Stone GD",
+        "coverImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000&auto=format&fit=crop",
+        "spotifyUrl": "https://open.spotify.com/artist/stonegd",
+        "album": "Cinema Soundscapes"
+      },
+      {
+        "id": "sp-3",
+        "title": "After Midnight in Bombay",
+        "artist": "Stone GD",
+        "coverImage": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1000&auto=format&fit=crop",
+        "spotifyUrl": "https://open.spotify.com/artist/stonegd",
+        "album": "Single"
+      }
+    ],
+    "audioTracks": [
+      {
+        "id": "aud-1",
+        "title": "Cinematic Trailer Rise & Drop",
+        "artist": "Shahid Shaikh — Sound Design",
+        "coverImage": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=800&auto=format&fit=crop",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "duration": "3:45",
+        "genre": "Cinematic / Hybrid Score",
+        "bpm": "128 BPM"
+      },
+      {
+        "id": "aud-2",
+        "title": "Emotional Wedding Piano & Strings",
+        "artist": "Shahid Shaikh — Film Score",
+        "coverImage": "https://images.unsplash.com/photo-1520523839898-507127040409?q=80&w=800&auto=format&fit=crop",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        "duration": "4:12",
+        "genre": "Acoustic / Orchestral",
+        "bpm": "84 BPM"
+      },
+      {
+        "id": "aud-3",
+        "title": "Heavy 808 Trap Drill Beat",
+        "artist": "Stone GD Beats",
+        "coverImage": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=800&auto=format&fit=crop",
+        "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+        "duration": "2:50",
+        "genre": "Trap / Hip Hop",
+        "bpm": "140 BPM"
+      }
+    ],
+    "allSongs": []
+  },
+  "experiences": [
+    {
+      "id": "exp-1",
+      "year": "2025 – PRESENT",
+      "company": "ETERNITY WEDDING FILMS",
+      "position": "Video Editor & Lead Colorist",
+      "description": "Crafting luxury cinematic wedding highlights, teasers, and long-format documentary edits. Specializing in advanced DaVinci Resolve color grading, multi-camera audio syncing, and storytelling pacing that captures pure emotion.",
+      "websiteUrl": "https://instagram.com",
+      "highlights": [
+        "Managed high-end royal wedding post-production",
+        "Designed standardized cinematic LUT presets",
+        "Spearheaded 4K HDR delivery pipelines"
+      ]
+    },
+    {
+      "id": "exp-urban-company",
+      "year": "2024",
+      "company": "URBAN COMPANY",
+      "position": "Video Director & Commercial Editor",
+      "description": "Directed and edited high-converting commercial video campaigns, vertical reels, and brand storytelling visuals for Urban Company services.",
+      "websiteUrl": "https://www.urbancompany.com",
+      "highlights": [
+        "Directed vertical commercial ads and promo campaigns",
+        "Delivered multi-format video edits for digital marketing",
+        "Paced high-retention social content"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "year": "2023",
+      "company": "TANVI TAUFU",
+      "position": "Video Editor & Creative Post-Producer",
+      "description": "Edited viral social media reels, long-form podcast conversations, and high-energy commercial teasers. Implemented sound design, pacing techniques, and typography animations that increased viewer retention.",
+      "websiteUrl": "https://instagram.com",
+      "highlights": [
+        "Edited 200+ high-retention video reels",
+        "Managed multi-camera podcast audio and video cuts",
+        "Created motion graphics and lower thirds"
+      ]
+    },
+    {
+      "id": "exp-3",
+      "year": "2021",
+      "company": "CRAFTY SHOTS",
+      "position": "Video Editor",
+      "description": "Executed wedding teaser edits, event highlight reels, and creative video assemblies. Focused on seamless beat matching, rhythm editing, and color correction across diverse camera formats.",
+      "websiteUrl": "https://instagram.com",
+      "highlights": [
+        "Cut 50+ event and wedding highlight videos",
+        "Multi-camera audio sync & rough cut assembly",
+        "Color correction and tone balancing"
+      ]
+    }
+  ],
+  "skills": [
+    "Video Editing",
+    "Adobe Premiere Pro",
+    "Wedding Film Editing",
+    "Color Grading",
+    "Color Correction",
+    "Sound Design",
+    "Storytelling",
+    "Social Media Video Editing",
+    "Podcast Editing",
+    "Short-form Video",
+    "Videography",
+    "Photography",
+    "Video Direction",
+    "DaVinci Resolve",
+    "After Effects",
+    "Multi-Cam Editing",
+    "Kinetic Typography",
+    "Audio Mastering & Foley"
+  ],
+  "contact": {
+    "name": "Shahid Shaikh",
+    "headline": "LET’S CREATE SOMETHING CINEMATIC.",
+    "subheading": "Whether it’s a high-end wedding film, viral social series, podcast post-production, or a directorial project — let’s connect.",
+    "email": "stonegangdestroy8766@gmail.com",
+    "phone": "9167567162",
+    "phoneDisplay": "+91 91675 67162",
+    "location": "Mumbai, Maharashtra, India",
+    "instagramName": "Shahid Shaikh – Stone GD",
+    "instagramUrl": "https://www.instagram.com/stone_gang_destroy?igsi=MW50OWdmNHg4ZXhydw==",
+    "youtubeUrl": "https://youtube.com",
+    "vimeoUrl": "https://vimeo.com",
+    "whatsappNumber": "9167567162"
+  },
+  "trash": [
+    {
+      "id": "trash-1787473725453-mlg4",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T08:28:45.453Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787473722314-v6bs",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T08:28:42.314Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787473715431-av8v",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T08:28:35.431Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787473712490-fzpi",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T08:28:32.490Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787471533879-izs2",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:52:13.879Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787469922409-k3jz",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:25:22.409Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787469918650-bum5",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:25:18.650Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787469915268-19qd",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:25:15.268Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787469884240-tgab",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:24:44.240Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787469881831-b6n2",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:24:41.831Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787469879082-r9kb",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-23T07:24:39.082Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428150374-wbkm",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:49:10.374Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428147576-1a5s",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:49:07.576Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428137501-4v14",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:48:57.501Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428110329-dvq5",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:48:30.329Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428105447-uhs4",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:48:25.447Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428102207-wdxx",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:48:22.207Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428099739-53qw",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:48:19.739Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428084251-5q7w",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:48:04.251Z",
+      "data": {}
+    },
+    {
+      "id": "trash-1787428077510-nbgp",
+      "title": "Deleted Item",
+      "deletedAt": "2026-08-22T19:47:57.510Z",
+      "data": {}
+    }
+  ],
+  "backups": []
+}
